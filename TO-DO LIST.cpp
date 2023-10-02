@@ -204,11 +204,11 @@ int main()
 
     while (true) {
         cout<<endl<<endl;
-        cout << "\n\t1.Add student data";
-        cout << "\n\t2.See student data";
-        cout << "\n\t3.Search student data";
-        cout << "\n\t4.Delete student data";
-        cout << "\n\t5.Update student data";
+        cout << "\n\t1.Add new task";
+        cout << "\n\t2.view all task";
+        cout << "\n\t3.Search for task";
+        cout << "\n\t4.Delete task";
+        cout << "\n\t5.Update task";
 
         int choice;
         cout << "\n\tEnter choice : ";

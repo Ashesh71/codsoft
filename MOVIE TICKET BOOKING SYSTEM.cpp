@@ -38,7 +38,7 @@ void menu()
         cout<<"\n\n\t\t\t\t <1> Movie Timings";
     
         cout<<"\n\t\t\t\t <2> Contact Us";
-        cout<<"\n\t\t\t\t <3> DTCard Registration";
+        cout<<"\n\t\t\t\t <3> Card Registration";
         cout<<"\n\t\t\t\t <4> Exit \n\n";
         cout<<"\t\t\t\tEnter Your Choice :"<<"\t";
     
@@ -95,12 +95,12 @@ int main(){
                 case 1:
                     system("CLS");
                      cout<<"\n\n\t\t\t\t Select the the timings: ";
-                    cout<<"\n\t\t\t\t 1. 0800";
-                    cout<<"\n\t\t\t\t 2. 1300";
-                    cout<<"\n\t\t\t\t 3. 1450";
-                    cout<<"\n\t\t\t\t 4. 1800";
-                    cout<<"\n\t\t\t\t 5. 2100";
-                    cout<<"\n\t\t\t\t 6. 0100 \n";                    //Timings of the show
+                    cout<<"\n\t\t\t\t 1. 08:00";
+                    cout<<"\n\t\t\t\t 2. 13:00";
+                    cout<<"\n\t\t\t\t 3. 14:50";
+                    cout<<"\n\t\t\t\t 4. 18:00";
+                    cout<<"\n\t\t\t\t 5. 21:00";
+                    cout<<"\n\t\t\t\t 6. 01:00 \n";                    //Timings of the show
                     cout<<"\n\n\t\t\t\t Please select the timings: ";
                     cin>>b;
                     
@@ -125,17 +125,17 @@ int main(){
                     cout<<"\n\t\t\t\t Show timings     :";
                     switch(b)
                         {
-                            case 1:    cout<<"0800";
+                            case 1:    cout<<"08:00";
                                 break;
-                            case 2:    cout<<"1300";
+                            case 2:    cout<<"13:00";
                                 break;
-                            case 3:    cout<<"1450";
+                            case 3:    cout<<"14:50";
                                 break;
-                            case 4:    cout<<"1800";
+                            case 4:    cout<<"18:00";
                                 break;
-                            case 5:    cout<<"2100";
+                            case 5:    cout<<"21:00";
                                 break;
-                            case 6:    cout<<"0100";
+                            case 6:    cout<<"01:00";
                                 break;
                             default: cout<<"invalid input";
                         }
@@ -146,12 +146,12 @@ int main(){
                 case 2: 
                 system("CLS");
                 cout<<"\n\n\t\t\t\tSelect the the timings:";
-                    cout<<"\n\t\t\t\t 1. 0900";
-                    cout<<"\n\t\t\t\t 2. 1100";
-                    cout<<"\n\t\t\t\t 3. 1250";
-                    cout<<"\n\t\t\t\t 4. 1500";
-                    cout<<"\n\t\t\t\t 5. 2000";
-                    cout<<"\n\t\t\t\t 6. 2200";
+                    cout<<"\n\t\t\t\t 1. 09:00";
+                    cout<<"\n\t\t\t\t 2. 11:00";
+                    cout<<"\n\t\t\t\t 3. 12:50";
+                    cout<<"\n\t\t\t\t 4. 15:00";
+                    cout<<"\n\t\t\t\t 5. 20:00";
+                    cout<<"\n\t\t\t\t 6. 22:00";
                     cout<<"\n\t\t\t\t Please select the timings: ";
                     cin>>b;
                     cout<<"\n\n\t\t\t\t Enter your name: ";
@@ -174,17 +174,17 @@ int main(){
                     cout<<"\n\t\t\t\tShow timings     :";
                     switch(b)
                     {
-                            case 1:    cout<<"0800";
+                            case 1:    cout<<"08:00";
                                 break;
-                            case 2:    cout<<"1300";
+                            case 2:    cout<<"13:00";
                                 break;
-                            case 3:    cout<<"1450";
+                            case 3:    cout<<"14:50";
                                 break;
-                            case 4:    cout<<"1800";
+                            case 4:    cout<<"18:00";
                                 break;
-                            case 5:    cout<<"2100";
+                            case 5:    cout<<"21:00";
                                 break;
-                            case 6:    cout<<"0100";
+                            case 6:    cout<<"01:00";
                                 break;
                     }
                     cout<<"\n\n\t\t\t\t Do you want to choose another option(y/n)";
@@ -194,12 +194,12 @@ int main(){
                 case 3: 
                 system("CLS");
                 cout<<"\n\n\t\t\t\tSelect the the timings:";
-                    cout<<"\n\t\t\t\t 1. 0800";
-                    cout<<"\n\t\t\t\t 2. 1300";
-                    cout<<"\n\t\t\t\t 3. 1450";
-                    cout<<"\n\t\t\t\t 4. 1800";
-                    cout<<"\n\t\t\t\t 5. 2100";
-                    cout<<"\n\t\t\t\t 6. 0100";
+                    cout<<"\n\t\t\t\t 1. 08:00";
+                    cout<<"\n\t\t\t\t 2. 13:00";
+                    cout<<"\n\t\t\t\t 3. 14:50";
+                    cout<<"\n\t\t\t\t 4. 18:00";
+                    cout<<"\n\t\t\t\t 5. 21:00";
+                    cout<<"\n\t\t\t\t 6. 01:00";
                     cout<<"\n\t\t\t\t Please select the timings";
                     cin>>b;
                     cout<<"\n\t\t\t\t Enter your name: ";
@@ -222,17 +222,17 @@ int main(){
                     cout<<"\n\t\t\t\t Show timings     :";
                     switch(b)
                     {
-                            case 1:    cout<<"0900";
+                            case 1:    cout<<"09:00";
                                 break;
-                            case 2:    cout<<"1300";
+                            case 2:    cout<<"13:00";
                                 break;
-                            case 3:    cout<<"1450";
+                            case 3:    cout<<"14:50";
                                 break;
-                            case 4:    cout<<"1800";
+                            case 4:    cout<<"18:00";
                                 break;
-                            case 5:    cout<<"2100";
+                            case 5:    cout<<"21:00";
                                 break;
-                            case 6:    cout<<"0100";
+                            case 6:    cout<<"01:00";
                                 break;
                     }
                     cout<<"\n\n\t\t\t\t Do you want to choose another option(y/n)";
@@ -242,12 +242,12 @@ int main(){
                 case 4: 
                 system("CLS");
                 cout<<"\n\n\t\t\t\tSelect the the timings: ";
-                    cout<<"\n\t\t\t\t 1. 0800";
-                    cout<<"\n\t\t\t\t 2. 1300";
-                    cout<<"\n\t\t\t\t 3. 1450";
-                    cout<<"\n\t\t\t\t 4. 1800";
-                    cout<<"\n\t\t\t\t 5. 2100";
-                    cout<<"\n\t\t\t\t 6. 0100";
+                    cout<<"\n\t\t\t\t 1. 08:00";
+                    cout<<"\n\t\t\t\t 2. 13:00";
+                    cout<<"\n\t\t\t\t 3. 14:50";
+                    cout<<"\n\t\t\t\t 4. 18:00";
+                    cout<<"\n\t\t\t\t 5. 21:00";
+                    cout<<"\n\t\t\t\t 6. 01:00";
                     cout<<"\n\t\t\t\t Please select the timings: ";
                     cin>>b;
                     cout<<"\n\t\t\t\t Enter your name: ";
@@ -270,17 +270,17 @@ int main(){
                     cout<<"\n\t\t\t\t Show timings     :";
                     switch(b)
                     {
-                            case 1:    cout<<"0800";
+                            case 1:    cout<<"08:00";
                                 break;
-                            case 2:    cout<<"1300";
+                            case 2:    cout<<"13:00";
                                 break;
-                            case 3:    cout<<"1450";
+                            case 3:    cout<<"14:50";
                                 break;
-                            case 4:    cout<<"1800";
+                            case 4:    cout<<"18:00";
                                 break;
-                            case 5:    cout<<"2100";
+                            case 5:    cout<<"21:00";
                                 break;
-                            case 6:    cout<<"0100";
+                            case 6:    cout<<"01:00";
                                 break;
                             default: cout<<"invalid input";
                     }
@@ -291,12 +291,12 @@ int main(){
                 case 5: 
                 system("CLS");
                 cout<<"\n\n\t\t\t\tSelect the the timings:";
-                    cout<<"\n\t\t\t\t 1. 0800";
-                    cout<<"\n\t\t\t\t 2. 1300";
-                    cout<<"\n\t\t\t\t 3. 1450";
-                    cout<<"\n\t\t\t\t 4. 1800";
-                    cout<<"\n\t\t\t\t 5. 2100";
-                    cout<<"\n\t\t\t\t 6. 0100";
+                    cout<<"\n\t\t\t\t 1. 08:00";
+                    cout<<"\n\t\t\t\t 2. 13:00";
+                    cout<<"\n\t\t\t\t 3. 14:50";
+                    cout<<"\n\t\t\t\t 4. 18:00";
+                    cout<<"\n\t\t\t\t 5. 21:00";
+                    cout<<"\n\t\t\t\t 6. 01:00";
                     cout<<"\n\t\t\t\t Please select the timings: ";
                     cin>>b;
                     cout<<"\n\t\t\t\t Enter your name: ";
@@ -319,17 +319,17 @@ int main(){
                     cout<<"\n\t\t\t\t Show timings     :";
                     switch(b)
                     {
-                            case 1:    cout<<"0800";
+                            case 1:    cout<<"08:00";
                                 break;
-                            case 2:    cout<<"1300";
+                            case 2:    cout<<"13:00";
                                 break;
-                            case 3:    cout<<"1450";
+                            case 3:    cout<<"14:50";
                                 break;
-                            case 4:    cout<<"1800";
+                            case 4:    cout<<"18:00";
                                 break;
-                            case 5:    cout<<"2100";
+                            case 5:    cout<<"21:00";
                                 break;
-                            case 6:    cout<<"0100";
+                            case 6:    cout<<"01:00";
                                 break;
                     }
                     cout<<"\n\n\t\t\t\t Do you want to choose another option(y/n)";
@@ -340,7 +340,7 @@ int main(){
             }break;
 
         case 2: system("CLS");
-                cout<<" For further information about movies you can download our Application(from the  Google Play Store or from the iOS App Store) or contact us at 01234567896523";            //Finding out more about our cinemas
+                cout<<" For further information about movies you can download our Application(from the  Google Play Store or from the iOS App Store) or contact us at phone number 01234567896523 or contact us at email movieshow@ticketbooking.com";            //Finding out more about our cinemas
                 cout<<"\n Do you want to choose another option(y/n)";
                 cin>>ans;
                 system("CLS");
@@ -488,7 +488,7 @@ void pay(int a)
         system("CLS");
         amt[2] = a * 700;
         char final;
-        cout<<"\n\t\t\t\tDo you have DTcard(y/n): ";
+        cout<<"\n\t\t\t\tDo you have card(y/n): ";
         cin>>final;
         if(final=='y')
         {
